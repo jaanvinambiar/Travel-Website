@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <section id="hotel">
+        <div class="main">
+            <div class="register">
+                <h2>Book Here</h2>
+                <form id="register" method="POST" action="details.php">
+                    <label>First Name : </label>
+                    <br>
+                    <input type="text" name="fname" id="name" placeholder="Enter Your First Name">
+                    <br><br>
+                    <label>Last Name : </label>
+                    <br>
+                    <input type="text" name="lname" id="name" placeholder="Enter Your Last Name">
+                    <br><br>
+                    <label>Age : </label>
+                    <br>
+                    <input type="number" name="age" id="name" placeholder="Enter Your Age">
+                    <br><br>
+                    <label>Email : </label>
+                    <br>
+                    <input type="email" name="email" id="name" placeholder="Enter Valid Email">
+                    <br><br>
+                    <label>Gender : </label>
+                    <br>
+                    &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="gender" id="male" value="M">
+                    &nbsp;
+                    <span id="male">Male</span>
+                    &nbsp; &nbsp; &nbsp; &nbsp;
+                    <input type="radio" name="gender" id="female" value="F">
+                    &nbsp;
+                    <span id="female">Female</span>
+                    <br><br>
+                    <label>Country : </label>
+                    <br>
+                    <select name="country" id="name">
+                        <option value=""> </option>
+                        <option value="India">India</option>
+                        <option value="New York">New York</option>
+                        <option value="Australia">Australia</option>
+                        <option value="Japan">Japan</option>
+                        <option value="France">France</option>
+                        <option value="Italy">Italy</option>
+                    </select>
+                    <br><br>
+                    <label>Date : </label>
+                    <br>
+                    <input type="date" name="datet" id="name" min="2021-04-03" placeholder="Date">
+                    <br><br>
+                    <label>Guests : </label>
+                    <br>
+                    <input type="number" name="guest" id="name" placeholder="Total Guests">
+                    <br><br>
+                    <input type="submit" value="Submit" name="submit" id="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

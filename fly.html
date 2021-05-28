@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight ticket Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <section id="fly">
+        <div class="main1">
+            <form action="flydet.php" method="POST">
+                <div class="booking-form-box">
+                    <div class="radio-btn">
+                        <input type="radio" class="btn" name="checks" checked="checked" value="R"> <span>Roundtrip</span>
+                        <input type="radio" class="btn" name="checks" value="O"><span>One Way</span>
+                        <input type="radio" class="btn" name="checks" value="M"><span>Multi City</span>
+                    </div>
+                </div>
+                <div class="booking-form">
+                    <label>Flying From</label>
+                    <input type="text" class="form-control" name="froml" placeholder="City or Airport">
+                    <label>Flying To</label>
+                    <input type="text" class="form-control" name="tol" placeholder="City or Airport">
+                    <div class="input-grp">
+                        <label>Departing</label>
+                        <input type="date" class="form-control select-date" name="ddate">
+                    </div>
+                    <div class="input-grp">
+                        <label>Returning</label>
+                        <input type="date" class="form-control select-date" name="rdate">
+                    </div>
+                    <div class="input-grp">
+                        <label>Adults</label>
+                        <input type="number" class="form-control" value="1" name="adults">
+                    </div>
+                    <div class="input-grp">
+                        <label>Children</label>
+                        <input type="number" class="form-control" value="0" name="child">
+                    </div>
+                    <div class="input-grp">
+                        <label>Travel Class</label>
+                        <select class="custom-select" name="clas">
+                            <option value="Economy">Economy Class</option>
+                            <option value="Business">Business Class</option>
+                        </select>
+                    </div>
+                    <div class="input-grp">
+                        <input type="submit" class="btn btn-primary flight" value="Show Flights" id="submit" name="submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+
+</html>
