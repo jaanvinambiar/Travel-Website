@@ -861,7 +861,8 @@ header h3{
         width: 200px;
     }
     input#submit{
-        width: 100px;
+        width: 120px;
+        margin-bottom: 35px;
     }
     /*forms*/
     /*fly*/
