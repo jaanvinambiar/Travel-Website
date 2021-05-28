@@ -36,7 +36,7 @@ a{
     padding: 20px 20px;
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0,0.6)),url(menu: https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/advent.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0,0.6)),url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/advent.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
