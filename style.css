@@ -36,7 +36,7 @@ a{
     padding: 20px 20px;
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0,0.6)),url(../project/images/advent.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0,0.6)),url(menu: https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/advent.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -198,44 +198,44 @@ nav ul li a{
     margin-top: 20px;
     overflow-x: hidden;
     background: grey;
-    background-image: url(../project/images/slider1.webp);
+    background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/slider1.webp);
     background-size: 100% 100%;
     box-shadow: 1px 2px 10px 5px grey;
     animation: slider 30s infinite linear;
 }
 @keyframes slider{
     0%{
-        background-image: url(../project/images/slider1.webp);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/slider1.webp);
     }
     10%{
-        background-image: url(../project/images/slider2.jpg);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/slider2.jpg);
     }
     20%{
-        background-image: url(../project/images/slider3.jpg);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/.jpg);
     }
     30%{
-        background-image: url(../project/images/slider4.jpg);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/slider4.jpg);
     }
     40%{
-        background-image: url(../project/images/puri_759.webp);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/puri_759.webp);
     }
     50%{
-        background-image: url(../project/images/the-turquoise-waters-of-kavouri-beach-in-royalty-free-image-1001653224-1566220896.jpg);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/the-turquoise-waters-of-kavouri-beach-in-royalty-free-image-1001653224-1566220896.jpg);
     }
     60%{
-        background-image: url(../project/images/slider7.jpg);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/slider7.jpg);
     }
     70%{
-        background-image: url(../project/images/dunyanin-en-yuksek-postanesi-12278395_amp-1-2-1170x614.jpg);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/dunyanin-en-yuksek-postanesi-12278395_amp-1-2-1170x614.jpg);
     }
     80%{
-        background-image: url(../project/images/Taj-Mahal.webp);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/Taj-Mahal.webp);
     }
     90%{
-        background-image: url(../project/images/Bali.jpg);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/Bali.jpg);
     }
     100%{
-        background-image: url(../project/images/Kerala.jpg);
+        background-image: url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/Kerala.jpg);
     }
 }
 /*slideshow end*/
@@ -426,7 +426,7 @@ hr{
 /*footer*/
 /*Book*/
 #book{
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)),url(../project/images/city.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)),url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/city.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -467,7 +467,7 @@ hr{
 /*Book end*/
 /* form*/
 #hotel{
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(../project/images/i5.png);
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)),url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/i5.png);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -530,7 +530,7 @@ label,span,h2{
 /*form end*/
 /*fly*/
 #fly {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(../project/images/fly.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url(https://raw.githubusercontent.com/jaanvinambiar/Travel-Website/main/fly.jpeg);
     background-size: cover;
     background-position: center;
     height: 100vh;
