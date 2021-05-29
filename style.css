@@ -846,7 +846,7 @@ header h3{
     }
     div.main{
         width: 300px;
-        height: 700px;
+        height: 750px;
     }
     div.register{
         font-size: 15px;
@@ -862,7 +862,7 @@ header h3{
     }
     input#submit{
         width: 150px;
-        margin-bottom: 45px;
+        margin-bottom: 40px;
     }
     /*forms*/
     /*fly*/
