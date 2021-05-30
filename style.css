@@ -846,7 +846,7 @@ header h3{
     }
     div.main{
         width: 300px;
-        height: 750px;
+        height: 700px;
     }
     div.register{
         font-size: 15px;
@@ -874,7 +874,7 @@ header h3{
     }
     div.main1{
         width: 300px;
-        height: 700px;
+        height: 750px;
     }
     /*fly*/
     /*offer*/
@@ -957,6 +957,7 @@ header h3{
     }
     .banner-text h1{
         font-size: 38px;
+        margin-top: 40px;
     }
     .banner-text p{
         font-size: 12px;
